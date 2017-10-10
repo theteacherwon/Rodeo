@@ -1,0 +1,42 @@
+.event-box {
+  
+  flex-wrap: wrap;
+  /* max-width:500%; */
+  display: inline-block;
+  width:90%; 
+  border-radius: 15px;
+  background-color: #d6c7ad;
+  height: 500px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+   
+  transition: tansform 0.3s ease-in-out;
+  box-shadow: 0 4px 4px 2px; }
+  .event-box:hover {
+    box-shadow: 0 6px 6px 4px; 
+  }
+    
+.background{
+ height: 500px;
+ width: 100%;
+  background-image: url('../images/rodeo-barrel-racing-01.jpg'); 
+  border-radius: 15px;
+    /* opacity: 0.3;   */
+}
+.horse{
+  font-size: 36px;
+  margin-left: 300px;
+}
+
+.info
+   {
+     color:  #00000A;
+   position: right;
+    margin-left:10px;
+    padding: 10px;
+    height: 75vh;
+    overflow: scroll;
+    
+   
+  }   
